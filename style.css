@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input{
+    font-family: 'DM Sans', sans-serif;
+}
+
+main{
+    background: #FFFFFF;
+    box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: min(42.8rem, 90%);
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+main h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    color: #34355B;
+}
+
+main p{
+    margin: 1.6rem 0 4.8rem 0;
+    color: rgba(52, 53, 91, 0.8);
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+input{
+    background-color: #DCE2E9;
+    width: 7.5rem;
+    border: none;
+    border-radius: .6rem;
+    padding: 1.6rem;
+}
+
+button{
+    border: none;
+    border-radius: 1rem;
+    padding: 1.6rem 6rem;
+    background-color: #7879F1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 700ms;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: #6060d1;
+}
+
+/*Screen 2*/
+
+main .screen2 h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3.3rem;
+}
